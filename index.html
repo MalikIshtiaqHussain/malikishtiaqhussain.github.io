@@ -1,965 +1,550 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="author" content="Benaissa Ghrib" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Malik Ishtiaq Hussain</title>
 
-<title>CONFIDENCE : Personal Vcard</title>
-
-
-
-<!--[if IE 7]>
-<link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
+<META NAME="Description" CONTENT="Malik Ishtiaq Hussain
+Graphics and Web designer ,Design the unique web templates, Convert the PSD to HTML and analyze the functionality of the all process links. Analyze a website functionally like validation, ranking on search engine, code, tags, structure and design of the template. Design the bespoke website template and convert it to joomla and wordpress theme.  Design the creative animation on flash and embed it to the html. ">
 
 
-
-<!--Stylesheet-->
-<link href="css/font.css" rel="stylesheet" type="text/css">
-<link href="css/fontello.css" rel="stylesheet" type="text/css">
-<link href="css/main.css" rel="stylesheet" type="text/css">
-<link href="css/magnific-popup.css" rel="stylesheet"  />
+	<META NAME="Keywords" CONTENT="Malik Ishtiaq Hussain,
+Graphics and Web designer,Print Banners and Brochure Designing, Flash TV Scrolls, Interactive CD,Corporate Presentation, Logo Designing, Flex Design, Visiting Card, Letter Head ">
 
 
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+
+<link href="style/reset.css" rel="stylesheet" type="text/css" />
+<link href="style/default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 
 
-<!--[if lt IE 8]>
-<style>
-/* For IE < 8 (trigger hasLayout) */
-.clearfix {
-    zoom:1;
+	<script type="text/javascript" src="jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery.fancybox.css" media="screen" />
+
+	
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				Simple image gallery. Uses default settings
+			*/
+
+			$('.fancybox').fancybox();
+
+			/*
+				Different effects
+			*/
+
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background-color' : '#eee'	
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+				Button helper. Disable animations, hide close button, change title type and content
+			*/
+
+			/*
+				Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			*/
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : { 
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+
+			/*
+				Open manually
+			*/
+
+			$("#fancybox-manual-a").click(function() {
+				$.fancybox.open('1_b.jpg');
+			});
+
+			$("#fancybox-manual-b").click(function() {
+				$.fancybox.open({
+					href : 'iframe.html',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+
+			$("#fancybox-manual-c").click(function() {
+				$.fancybox.open([
+					{
+						href : '1_b.jpg',
+						title : 'My title'
+					}, {
+						href : '2_b.jpg',
+						title : '2nd title'
+					}, {
+						href : '3_b.jpg'
+					}
+				], {
+					helpers : {
+						thumbs : {
+							width: 75,
+							height: 50	
+						}
+					}	
+				});
+			});
+
+
+		});
+	</script>
+	<style type="text/css">
+		.fancybox-custom .fancybox-outer {
+			box-shadow: 0 0 50px #222;
+		}
+	</style>
+<style type="text/css">
+<!--
+.style1 {color: #FFFFFF}
+.style4 {color: #000000}
+.style7 {color: #EC008C}
+.style9 {
+	color: #000000;
+	font-size: 130%;
+	font-weight: bold;
 }
+.style11 {
+	font-size: 150%;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+-->
 </style>
-<![endif]-->
-
-
 </head>
-
 <body>
 
-	<!-- Preloader -->
-	<div id="loader">
-	  <div id="loaderInner"><h1>confidence</h1>
-		<p class="loading">is loading...</p></div>
-	</div>
-	
-	
-	
-
-
-	
-<!--Wrapper-->
-	<div id="wrapper">
-		
-		<!--Header-->
-		<header id="header" class="clearfix">
-			
-			<div class=" holder960">
-
-			<a href="#" class="mobileBtn" ><i class="icon-menu"></i></a>
-			<!--Navigation-->
-				<nav id="mainNav" >
-				<ul>
-					<li><a href="#wrapper">home</a></li>
-					<li><a href="#about">about me</a></li>
-					<li><a href="#resume">resume</a></li>
-					<li><a href="#portfolio">portfolio</a></li>
-					<li><a href="#contact">contact</a></li>
-					
-				</ul>
-				
-				</nav>
-			<!--End navigation-->
-			
-			
-			
-				</div>
-			</header>
-			<!--Header-->
-			
-			
-			<!--Teaser-->
-			<div id="teaser" class="clearfix ">
-				
-					<!--Overlay-->
-					<div class="overlay">
-						
-						
-					<!--Holder 960-->
-					<div class="holder960 clearfix">
-						
-						<!--Teaser title-->
-						<div class="teaserTitle ">
-							<h1><span class="rotate">my name is john doe, i am a web designer, i am a web developer</span></h1>
-						</div>
-						<!--End teaser title-->
-						
-						<!--Caption-->
-						<div class="captions">		
-					<p>A Talented Freelancer Located In Our Lovely Earth</p>		
-						</div>
-						<!--End caption-->
-												
-					
-					</div>
-					<!--End Holder 960-->
-					
-					</div>
-					<!--End overlay-->
-			</div>
-			<!--End teaser-->
-			
-			
-		
-			
-			<!--About section-->
-			<section id="about" class="clearfix ">
-				
-				
-				<!--Section title-->
-				<div class="secTitle">
-					<h1><i class="icon-umbrella"></i>/ about me</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur selin du adipisicing elit<br> sed do eiusmod. Ut enim ad minim veniam.</p>
-
-				</div>
-				<!--End section title-->
-				
-				<!--Holder 960-->
-				<div class="holder960 clearfix">
-						
-						
-							<!--Inner title-->
-							<div class="innerTitle">
-								<h1> my name is john smith</h1>
-								<p>Iam a Web Designer / Web Developer</p>
-							</div>
-							<!--End inner title-->
-							
-							
-							<!--User profile-->
-							<div class="userProfile top nBottom">
-								<div class="imgProfile">
-									<img src="images/profile.jpg" width="200" height="200" alt="">
-								</div>
-								
-								<div class="getBtn">
-										<div class="ico"><a href="#"><i class="icon-print-1"></i></a>
-											</div>
-											<div class="ico"><a href="#"><i class="icon-download"></i></a>
-											</div>
-										<h3>Print / Download My CV</h3>
-								</div>
-									
-									<div class="followBtn">
-										<div class="ico"><a href="#" class="fb"><i class="icon-facebook"></i></a>
-											</div>
-											
-											<div class="ico"><a class="tw" href="#"><i class="icon-twitter"></i></a>
-											</div>
-										<h3>Follow Me On</h3>
-									</div>
-							</div>
-							<!--End user profile-->	
-							
-							
-							
-							
-				
-					<!--Skills-->
-					<div id="skills" class="clearfix ">
-
-
-								<!--Divider -->
-								<div class="divider"><span><i class="icon-star-filled"></i></span></div>
-								<!--End divider-->
-
-
-
-							<!--Inner title-->
-							<div class="innerTitle">
-								<h1> main skills</h1>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							</div>
-							<!--End inner title-->
-
-							<div class="skillsHolder clearfix top nBottom ">
-
-									<!--Skills holder -->
-									<div class="skills column">
-										<!--Skill-->
-										<div class="skillBar">            
-										     <div class="skillbarHolder">
-										      <div class="skillbarTitle">Web Design</div>
-										      <div class="percentage percent90"><span>90%</span></div>    
-										      </div>              
-										</div>
-										<!--End skill-->
-
-										<!--Skill-->
-										<div class="skillBar">            
-										     <div class="skillbarHolder">
-										      <div class="skillbarTitle">Wordpress</div>
-										      <div class="percentage percent50"><span>60%</span></div>    
-										      </div>              
-										</div>
-										<!--End skill-->
-
-
-										<!--Skill-->
-										<div class="skillBar">            
-										     <div class="skillbarHolder">
-										      <div class="skillbarTitle">Jquery</div>
-										      <div class="percentage percent60"><span>70%</span></div>    
-										      </div>              
-										</div>
-										<!--End skill-->
-
-										<!--Skill-->
-										<div class="skillBar">            
-										     <div class="skillbarHolder">
-										      <div class="skillbarTitle">Html/Css</div>
-										      <div class="percentage percent95"><span>95%</span></div>    
-										      </div>              
-										</div>
-										<!--End skill-->
-
-
-										</div>
-										<!--End skills-->
-
-									<div class="textWidget column">
-										<h1>Get To Now Me</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-											sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-											 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-											 ut aliquip ex ea commodo consequat.<br> Duis aute irure dolor in reprehenderit
-											 in voluptate velit esse cillum dolore eu fugiat nulla pariatur commodo consequat
-											eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									</div>
-
-								</div>
-								<!--End skills holder -->
-								</div>	
-								<!--End skills-->
-								
-								
-								
-					
-					
-						
-						
-						<!--Info container-->
-						<div class="infoContainer top nTop clearfix">
-							
-							
-						<!--Divider -->
-						<div class="divider"><span><i class="icon-star-filled"></i></span></div>
-						<!--End divider-->
-							
-							
-							<!--Inner title-->
-							<div class="innerTitle">
-								<h1> my contact information</h1>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							</div>
-							<!--End inner title-->
-							
-
-							<!--Contact holder-->
-								<div class="infoHolder top">
-									
-								<!--Address-->	
-								<div class="address">
-								<i class="icon-location"></i>
-								<p>The Company Name Inc.1234 Street Road,City Name,IN 567 890.</p>
-								</div>
-								<!--End address-->
-								
-								
-								<!--Info-->
-								<div class="info">
-								<ul>
-									<li><div class="ico"><i class="icon-mail"></i></div>
-									<p>Email : name@gmail.com </p></li>
-									<li><div class="ico"><i class="icon-phone"></i></div>
-									<p>Tel : + 123-456-789</p></li>
-									<li><div class="ico"><i class="icon-link"></i></div>
-										<p>WebSite : <a href="#">www.yoursite.com</a></p></li>
-								</ul>
-								</div>
-								<!--End info-->	
-
-								</div>
-								<!--End contact holder-->
-							
-							
-						</div>
-						<!--End info container-->					
-				
-				</div>
-				<!--End Holder 960-->
-			</section>
-			<!--End about section-->
-			
-			
-			
-			
-				<!--Resume section-->
-				<section id="resume" class="clearfix section">
-
-
-					<!--Section title-->
-					<div class="secTitle">
-						<h1><i class="icon-docs"></i>/ resume</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur selin du adipisicing elit<br> sed do eiusmod. Ut enim ad minim veniam.</p>
-
-					</div>
-					<!--End section title-->
-
-					<!--Holder 960-->
-					<div class="holder960 clearfix">
-						
-						
-							<!--Resume container-->
-								<div class="resumeContainer">
-
-								<!--Inner title-->
-								<div class="innerTitle">
-									<h1> my Employment</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-								</div>
-								<!--End inner title-->
-								
-								
-								
-						<!--Employment holder-->
-						<div class="emHolder top clearfix">
-								<!--Inner employment-->
-								<div class="innerEm clearfix">
-								<!--Employment-->
-								<div class="em column">
-									<div class="emIco"><i class="icon-briefcase"></i></div>
-									<div class="emDesc">
-									<h3>WebDesigner – Mutation Media </h3>
-									<h6>2005-2013</h6>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-										 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-									</div>
-								</div>
-								<!--End employment-->
-
-								<!--Employment-->
-								<div class="em column">
-									<div class="emIco"><i class="icon-briefcase"></i></div>
-									<div class="emDesc">
-									<h3>WebDeveloper – Mutation Media </h3>
-									<h6>2005-2013</h6>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-									</div>
-								</div>
-								<!--End employment-->
-								</div>
-								<!--End inner employment-->
-								
-								
-								
-								<!--Inner employment-->
-								<div class="innerEm clearfix">
-								<!--Employment-->
-								<div class="em column">
-									<div class="emIco"><i class="icon-briefcase"></i></div>
-									<div class="emDesc">
-									<h3>WebDesigner – Mutation Media </h3>
-									<h6>2005-2013</h6>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-										 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-									</div>
-								</div>
-								<!--End employment-->
-
-								<!--Employment-->
-								<div class="em column">
-									<div class="emIco"><i class="icon-briefcase"></i></div>
-									<div class="emDesc">
-									<h3>WebDeveloper – Mutation Media </h3>
-									<h6>2005-2013</h6>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-									</div>
-								</div>
-								<!--End employment-->
-								</div>
-								<!--End inner employment-->
-								
-								</div>
-								<!--End employment holder-->
-								
-								
-								<!--Divider -->
-								<div class="divider"><span><i class="icon-star-filled"></i></span></div>
-								<!--End divider-->
-								
-								<!--Inner title-->
-								<div class="innerTitle">
-									<h1> my education</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-								</div>
-								<!--End inner title-->
-								
-								
-								
-					<!--Education holder-->
-					<div class="edHolder top clearfix">
-
-							<!--Inner education-->
-							<div class="innerEd clearfix">
-							<!--Education-->
-							<div class="ed column">
-								<div class="edIco"><i class="icon-graduation-cap"></i></div>
-								<div class="edDesc">
-								<h3>Master Degree – Mutation Media </h3>
-								<h6>2005-2013</h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-									 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-								</div>
-							</div>
-							<!--End education-->
-
-							<!--Education-->
-							<div class="ed column">
-								<div class="edIco"><i class="icon-graduation-cap"></i></div>
-								<div class="edDesc">
-								<h3>Master Degree  – Mutation Media </h3>
-								<h6>2005-2013</h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-								</div>
-							</div>
-							<!--End education-->
-							</div>
-							<!--End inner education-->
-
-
-							<!--Inner education-->
-							<div class="innerEd clearfix">
-							<!--Education-->
-							<div class="ed column">
-								<div class="edIco"><i class="icon-graduation-cap"></i></div>
-								<div class="edDesc">
-								<h3>Master Degree  – Mutation Media </h3>
-								<h6>2005-2013</h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-									 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-								</div>
-							</div>
-							<!--End education-->
-
-							<!--Education-->
-							<div class="ed column">
-								<div class="edIco"><i class="icon-graduation-cap"></i></div>
-								<div class="edDesc">
-								<h3>Master Degree  – Mutation Media </h3>
-								<h6>2005-2013</h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-								</div>
-							</div>
-							<!--End education-->
-							</div>
-							<!--End inner education-->
-
-
-							</div>
-							<!--End education holder-->
-								
-			
-							</div>
-							<!--End resume container-->
-							
-							</div>
-							<!--End holder 960-->
-							
-							<!--Call to action area-->	
-							<div class="cta">
-								<p>Do you have a project, ideas and you want to get started ?<br> Don’t hesitate
-									 feel free to get in <a href="#contact">touch with me</a>.</p>
-							</div>
-							<!--End call to action area-->
-							
-							</section>
-							<!--End resume section-->
-
-
-								<!--Testomonials section-->
-								<section id="testimonials">
-									
-								<!--Client container-->
-								<div class="testimoniaContainer">
-
-
-											<!--Overlay-->
-											<div class="overlay">
-											<!--Holder 960-->
-											<div class="holder960 clearfix">
-
-												<!--testimonials content-->
-												<div class="testimonialContent">
-
-													<!--Testi-->
-												<div class="testi ">
-													<blockquote >Being the richest man in the cemetery doesn't matter to me.
-														 Going to bed at night saying we've done something wonderful... that's what matters to me </blockquote>
-
-											<!--Testi profile-->
-											<div class="testiProfile">
-												<div class="icoQuote"><i class="icon-quote-right"></i></div>
-												<div class="nameProfile">
-														<h3>Steve Jobs</h3>
-												</div>
-											</div>
-											<!--End testi profile-->
-												</div>
-												<!--End testi-->
-
-
-
-													<!--Testi-->
-														<div class="testi">
-													<blockquote>That’s been one of my mantras — focus and simplicity.
-														 Simple can be harder than complex you have to work hard to get your thinking clean to make it simple</blockquote>
-
-
-													<!--Testi profile-->
-													<div class="testiProfile">
-													<div class="icoQuote"><i class="icon-quote-right"></i></div>
-													<div class="nameProfile">
-															<h3>Steve Jobs</h3>
-													</div>
-													</div>
-													<!--End testi profile-->
-														</div>
-											<!--End testi-->
-
-													</div>
-													<!--End testimonials content-->
-													</div>
-													<!--End Holder 960-->
-
-														</div>
-														<!--End overlay-->
-											</div>
-											<!--End testimonia container-->
-
-											</section>
-											<!--End testomonials section-->
-											
-							
-							
-							<!--Portfolio section-->
-							<section id="portfolio" class="clearfix section">
-
-
-								<!--Section title-->
-								<div class="secTitle">
-									<h1><i class="icon-camera"></i>/ portfolio</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur selin du adipisicing elit<br> sed do eiusmod. Ut enim ad minim veniam.</p>
-
-								</div>
-								<!--End section title-->
-
-								<!--Holder 960-->
-								<div class="holder960 clearfix">
-
-
-
-								<!--Portfolio container-->
-									<div class="portfolioContainer">
-
-									<!--Inner title-->
-									<div class="innerTitle">
-										<h1> check out my works</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-									</div>
-									<!--End inner title-->
-
-
-										<!--Divider -->
-										<div class="divider"><span><i class="icon-star-filled"></i></span></div>
-										<!--End divider-->
-
-
-								<!-- Filter nav -->
-								<div class="filterNav">
-									<ul id="category" class="filter">
-										<li class="all current"><a href="#">All</a></li>
-										<li class="catWeb"><a href="#">Web Design</a></li>
-										<li class="catGraphic"><a href="#">Graphic Design</a></li>
-										<li class="catMotion"><a class="last" href="#">Motion Graphic</a></li>
-									</ul>
-									</div>
-								<!-- End filter nav -->
-
-
-
-									<!-- Works list -->
-									<div id="works" class="clearfix">
-										<!--Portfolio-->
-											<ul class="portfolio clearfix ">
-
-
-												<li data-id="id-1" data-type="catWeb" class="item  ">
-													<div class="browserBar"> 
-														<span class="browserDot"></span>
-														 <span class="browserDot"></span>
-														 <span class="browserDot"></span>
-													 </div>
-													<div class="folioImg">
-													<img src="images/portfolioImages/work1.jpg" alt="" />
-													</div>
-
-
-												<div class="workDesc"><h3>Project Title Goes Here<br><span>Web Design</span></h3>
-													<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div>
-
-
-												</li>
-
-												<li data-id="id-2" data-type="catWeb" class="item ">
-													<div class="browserBar"> 
-														<span class="browserDot"></span>
-														 <span class="browserDot"></span>
-														 <span class="browserDot"></span>
-													 </div>
-													<div class="folioImg">
-													<img src="images/portfolioImages/work2.jpg" alt="" />
-													</div>
-													<div class="workDesc"><h3>Project Title Goes Here<br><span>Web Design</span></h3>
-														<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div>
-
-												</li>
-
-												<li data-id="id-3" data-type="catGraphic" class="item ">
-													<div class="browserBar"> 
-														<span class="browserDot"></span>
-														 <span class="browserDot"></span>
-														 <span class="browserDot"></span>
-													 </div>
-													<div class="folioImg">
-													<img src="images/portfolioImages/work3.jpg" alt="" />
-													</div>
-													<div class="workDesc"><h3>Project Title Goes Here<br><span>Graphic Design</span></h3>
-														<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div>
-
-												</li>
-
-												<li data-id="id-4" data-type="catGraphic" class="item ">
-													<div class="browserBar"> 
-														<span class="browserDot"></span>
-														 <span class="browserDot"></span>
-														 <span class="browserDot"></span>
-													 </div>
-													<div class="folioImg">
-													<img src="images/portfolioImages/work2.jpg" alt="" />
-													</div>
-													<div class="workDesc"><h3>Project Title Goes Here<br><span>Graphic Design</span></h3>
-														<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div>
-
-												</li>
-
-												<li data-id="id-5" data-type="catMotion" class="item ">
-													<div class="browserBar"> 
-														<span class="browserDot"></span>
-														 <span class="browserDot"></span>
-														 <span class="browserDot"></span>
-													 </div>
-													<div class="folioImg">
-													<img src="images/portfolioImages/work4.jpg" alt="" />
-													</div>
-													<div class="workDesc"><h3>Project Title Goes Here<br><span>Motion Design</span></h3>
-													<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div>
-
-												</li>
-
-												<li data-id="id-6" data-type="catMotion" class="item">
-													<div class="browserBar"> 
-														<span class="browserDot"></span>
-														 <span class="browserDot"></span>
-														 <span class="browserDot"></span>
-													 </div>
-													<div class="folioImg">
-													<img src="images/portfolioImages/work2.jpg" alt="" />
-													</div>
-													<div class="workDesc"><h3>Project Title Goes Here<br><span>Motion Design</span></h3>
-													<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div>
-
-												</li>
-
-												<li data-id="id-7" data-type="catGraphic" class="item ">
-													<div class="browserBar"> 
-														<span class="browserDot"></span>
-														 <span class="browserDot"></span>
-														 <span class="browserDot"></span>
-													 </div>
-													<div class="folioImg">
-													<img src="images/portfolioImages/work1.jpg" alt="" />
-													</div>
-													<div class="workDesc"><h3>Project Title Goes Here<br><span>Graphic Design</span></h3>
-														<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div>
-
-												</li>
-
-												<li data-id="id-8" data-type="catWeb" class="item">
-													<div class="browserBar"> 
-														<span class="browserDot"></span>
-														 <span class="browserDot"></span>
-														 <span class="browserDot"></span>
-													 </div>
-												<div class="folioImg">
-												<img src="images/portfolioImages/work2.jpg" alt="" />
-												</div>
-												<div class="workDesc"><h3>Project Title Goes Here<br><span>Web Design</span></h3>
-													<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div>
-
-												</li>
-
-
-													<li data-id="id-9" data-type="catGraphic" class="item ">
-														<div class="browserBar"> 
-															<span class="browserDot"></span>
-															 <span class="browserDot"></span>
-															 <span class="browserDot"></span>
-														 </div>
-													<div class="folioImg">
-													<img src="images/portfolioImages/work3.jpg" alt="" />
-													</div>
-													<div class="workDesc"><h3>Project Title Goes Here<br><span>Graphic Design</span></h3>
-														<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div>
-
-													</li>
-									</ul>
-									<!--End portfolio-->
-									</div>
-										<!-- End works list -->
-
-									</div>
-									<!--End portfolio container-->
-
-
-
-									</div>
-								<!--Holder 960-->
-
-								</section>
-								<!--End portfolio section-->
-								
-								
-								
-						
-				<!--Contact section-->
-				<section id="contact" class="clearfix section">
-					
-					
-
-					<!--Section title-->
-					<div class="secTitle">
-						<h1><i class="icon-mail"></i>/ contact</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur selin du adipisicing elit<br> sed do eiusmod. Ut enim ad minim veniam.</p>
-
-					</div>
-					<!--End section title-->
-					
-
-					<!--Holder 960-->
-					<div class="holder960 clearfix">
-
-
-
-					<!--Contact container-->
-						<div class="contactContainer">
-
-						<!--Inner title-->
-						<div class="innerTitle">
-							<h1> get in touch with me</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-						<!--End inner title-->
-						
-						
-						<!--Contact holder-->
-						<div class="contactHolder top">
-							
-							<!--Contact form-->
-							<div class="contactForm clearfix">
-								<form class="form clearfix"  method="post" action="http://www.mutationmedia.net/CONFIDENCEVCARD/send.php">
-
-								      <div class="inputBox">
-								        <label>Name *</label>
-								        <input type="text"  id="name" name="name">
-								      </div>
-
-								      <div class="inputBox">
-								        <label>Email *</label>
-								        <input type="text"  name="email" id="email">
-								      </div>
-
-								      <div class="inputBox last">
-								        <label>Subject </label>
-								        <input type="text" name="subject">
-								      </div>
-
-								      <div class="inputBox msg">
-								        <label>Message *</label>
-								        <textarea name="message" id="message"></textarea>
-								      </div>
-
-				
-								      <input type="submit" class="submit" id="submit" value="Send Message" name="submit">
-					
-								      </form>
-								
-										<div id="success"><h2>Your message has been sent. Thank you!</h2></div>
-										<div id="error"><h2>Sorry your message can not be sent.</h2></div>
-							</div>
-							<!--End contact form-->
-							
-							<!--Clearing-->
-							<div class="clearfix"></div>
-							<!--End clearing-->
-							
-						</div>
-						<!--End contact holder-->
-						
-						
-							</div>
-							<!--End contact container-->
-							</div>
-						<!--Holder 960-->
-
-						</section>
-						<!--End contact section-->
-			
-				
-									<!--Footer-->
-									<footer id="footer">
-										
-											<!--Holder 960-->
-											<div class="holder960 clearfix">
-										
-										<!--Top footer-->
-										<div class="ftTop clearfix">
-											
-											<!--Feed-->
-											<div class="feed">
-												<div class="feedIco"><i class="icon-twitter"></i></div>
-												<div class="tweet">
-												<h3>@BenaissaGhrib</h3>
-												<p class="tweets"></p>
-												</div>
-											</div>
-											<!--End feed-->
-											
-											
-									<!--Share-->	
-										<div class="share ">
-											<ul class="socialsFooter">
-													<li><a href="#"><i class="icon-facebook"></i></a></li>
-													<li><a href="#"><i class="icon-twitter"></i></a></li>
-													<li><a href="#"><i class="icon-pinterest"></i></a></li>
-												 
-											</ul>
-										</div>
-									<!--End share-->
-											
-										</div>
-										<!--End top footer-->
-										
-										
-
-										
-											</div>
-										<!--Holder 960-->
-										
-										
-										<div class="bottom clearfix">
-												<!--Holder 960-->
-												<div class="holder960 clearfix">
-										
-										<p>&copy; 2013. <span>Confidence</span> All Rights Reserved.</p>
-										<ul>
-											<li><a href="#">Hire Me</a></li>
-											<li><a href="#">Print My CV</a></li>
-										</ul>
-										
-												</div>
-											<!--Holder 960-->
-										
-										</div>
-										
-										
-									</footer>
-									<!--End footer-->
-
-	</div>
-<!--ENd wrapper-->	
-	
-<!--Javascript-->
-<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
-<script src="js/jquery-migrate-1.2.1.js"></script>
-<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-<script src="js/jquery.quicksand.js" type="text/javascript"></script>
-<script src="js/jquery.scrollTo-min.js" type="text/javascript"></script>
-<script src="js/slides.min.jquery.js" type="text/javascript"></script>
-<script src="js/jquery.tweet.js" type="text/javascript"></script>
-<script src="js/waypoints.js" type="text/javascript"></script>
-<script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
-<script src="js/jquery.ui.totop.min.js" type="text/javascript"></script>
-<script src="js/jquery.simple-text-rotator.js" type="text/javascript" ></script>
-<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-<script src="js/script.js" type="text/javascript"></script>
-
-
-
-
-
-<script>
-
-
-//<![CDATA[
-//--------------------------------- Twitter feed --------------------------------//
-
-
-jQuery(".tweets").tweet({
-  join_text: false,
-  username: "BenaissaGhrib", // Change username here
-  modpath: './twitter/',
-  avatar_size: false,
-  count: 1,
-  auto_join_text_default: ' we said, ',
-  auto_join_text_ed: ' we ',
-  auto_join_text_ing: ' we were ',
-  auto_join_text_reply: ' we replied to ',
-  auto_join_text_url: ' we were checking out ',
-  loading_text: 'Loading tweets...'
-
-});
-
-
-
-//--------------------------------- End twitter feed --------------------------------//
-
-//]]>
-</script>
-
-
-<!-- Google analytics -->
-
-
-<!-- End google analytics -->
-
-
+<!-- header start -->
+
+<div id="header" class="clearfix">
+
+    <div class="red floatleft">
+        <div class="name">
+          <h1>Malik Ishtiaq Hussain</h1><h4 class="style1">Graphics and Web designer <br />
+            <br />
+          </h4>
+      </div>
+  </div>
+    
+    <div class="gray floatright">
+        <div class="contact">
+       	  <div class="info floatleft">
+            	
+               
+              <p><a href="mailto:">malikishtiaqhussain@hotmail.com</a></p>
+              <p>Religion: 	Islam</p>
+              
+<p>Nationality: 	Pakistani</p>
+<p><strong>Language</strong>: English, Urdu</p><p>Marital Status:  	Single</p>
+<p>Currently :<span class="style4"> UAE ( Dubai)</span></p> 
+<p> Mob: 0556175568  </p>    	  </div>
+            
+          <div class="floatright profile-pic">
+            <img src="images/Malik Ishtiaq Hussain.jpg" alt="malik ishtiaq hussain" width="98" height="126" />
+<div class="social-bar">
+                	<ul>
+                    	
+                      <li><a href="http://www.facebook.com/malikishtiaqhussain"><img src="images/icon-fb.png" alt="Faceboook"  /></a></li>
+                    </ul>
+        </div>
+          </div>
+            
+      </div>
+    </div>
+
+<!-- header end --></div>
+
+<!-- wrapper start -->
+<div id="wrapper">
+
+<!-- education start -->
+<h2 class="icon-education">Education</h2>
+
+<table width="971" class="tbl-items">
+<tr>
+    	<td width="171" nowrap="nowrap">2007 - 2009</td>
+<td width="788">
+        	<b><strong>Master of Information Technology</strong> <a href="#">from</a> <a href="#">Superior University lahore, Pakistan   </a></b>        </td>
+    </tr>
+    
+    <tr>
+    	<td nowrap="nowrap">2004 - 2006</td>
+        <td>
+        	<b><strong>B.Sc (Double Math stat)</strong>:   <a href="#">from Govt. Islamia College Civil Lines lahore,, Pakistan   </a></b>      </td>
+    </tr>
+    
+    <tr>
+    	<td nowrap="nowrap">2001 - 2002</td>
+        <td>
+        	<b><strong>Intermediate of Computer Science </strong><a href="#">from Govt. Islamia College, Railway Road , lahore, Pakistan  .</a></b>        </td>
+    </tr>
+</table>
+
+<!-- education end -->
+
+
+
+<div class="spacer"></div>
+
+<!-- experience start -->
+
+<h2 class="icon-experience">Experience</h2>
+
+<table class="tbl-items">
+	<tr>
+    	<td nowrap="nowrap">15-03-2010 to Till Date</td>
+<td>
+        	<div align="justify"><b><strong>IT Administrator @ Funtours</strong><a href="http://www.funtoursdubai.com"><strong>Dubai Desert Safari</strong><strong></strong></a></b>      	      </div>
+   	  <p align="justify">Designing  &amp; Development of website, According to W3C Complince. Serch Engin Optimization ON Page and OFF Page</p>      </td>
+    </tr>
+    
+	<tr>
+    	<td nowrap="nowrap">13-10-2010 to 28-02-2012</td>
+<td>
+        	<div align="justify"><b><strong>Web developer &amp; Media  designer </strong><a href="www.itsols.net">@ <strong>IT Solutions</strong><strong></strong></a></b>      	      </div>
+   	  <p align="justify">Designing  &amp; Development of website, Develop web based online marketing portal, Print  Banners and Brochure Designing, Flash TV Scrolls, Interactive CD, Corporate  Presentation, Logo Designing, Flex Design, Visiting Card, Letter Head. </p>      </td>
+    </tr>
+    
+    <tr>
+    	<td nowrap="nowrap">01-05-2010 to 11-10-2010</td>
+        <td>
+        	<div align="justify"><b><strong> Web Developer and Analyst</strong><a href="#"> @ Cresset Technologies</a></b>      	  </div>
+        	<p align="justify">Design the unique web templates, Convert the PSD  to HTML and analyze the functionality of the all process links. Analyze a  website functionally like validation, ranking on search engine, code, tags,  structure and design of the template. Design the bespoke website template and  convert it to joomla and wordpress theme.   Design the creative animation on flash and embed it to the html.     </p>      </td>
+    </tr>
+    
+    <tr>
+    	<td nowrap="nowrap">20-08-2007 to 31-10-2009</td>
+        <td>
+        	<div align="justify"><b><strong>Graphics and Web Designer </strong><a href="#">@ <strong>King Edward Medical University </strong></a></b>      	    </div>
+       	  <p align="justify">Design  the hospital and university websites and associate websites. Design the print  media stuff like Logos, Brochures, Visiting cards, Folders, Files, Pamphlet,  Flex and design the event in seminars, trainings.         </p>      </td>
+    </tr>
+</table>
+
+<!-- experience end -->
+
+
+<div class="spacer"></div>
+
+<h2 class="icon-experience">Professional Certifications:</h2>
+
+<table class="tbl-items">
+	<tr>
+    	<td nowrap="nowrap">MCITP:                        </td>
+<td>
+        	<div align="justify">
+        	  <p>Date: 2011       <em>Microsoft Certified IT  Professional</em><br />
+        	    Microsoft Certification ID: <strong>8082352<br /></strong>
+647           Pro: Windows Server 2008, Enterprise  Administrator                             						    February  28, 2011<br />
+643           TS: Windows Server 2008 Applications  Infrastructure, Configuring       									February  15, 2011<br />
+642           TS: Windows Server 2008 Network  Infrastructure, Configuring  											February 12,  2011<br />
+640           TS: Windows Server 2008 Active  Directory, Configuring                        							February  07, 2011<br />
+680           TS: Windows 7, Configuring                                                               					February  01, 2011</p>
+        	</div>
+            <br /></td>
+    </tr>
+    
+	<tr>
+    	<td nowrap="nowrap">CCNA:                        </td>
+<td>
+        	<div align="justify">
+        	  <p><strong>CORVIT NETWORKS</strong><strong>, <em>Lahore</em></strong><br />
+        	    Date: 2011       <em>Cisco Certified  Network Associate</em></p>
+        	</div>
+      </td>
+    </tr>
+    
+    <tr>
+    	<td nowrap="nowrap">Fiber Optic:                </td>
+        <td>
+        	<div align="justify">
+        	  <p><strong>PTCL Training Center </strong> <br />
+        	    Date: 2011     PTCL Training  Center Lahore.</p>
+        	</div>
+        	     </td>
+    </tr>
+    
+   
+</table>
+
+<!-- experience end -->
+
+
+<div class="spacer"></div>
+<!-- skills start -->
+
+<h2 class="icon-skills">Skills</h2>
+
+<table class="tbl-items">
+	<tr>
+    	<td width="199" ><span class="style7">Design Tool</span><br />
+    	  <br />
+
+
+  <ul class="skill-items">
+            	<li>Corel Draw, Indesign</li>
+                <li>Adobe Illustrator</li>
+                <li>Adobe Photoshop</li>
+          <li>Dreamweaver</li>
+                <li>Freehand</li>
+      </ul>      </td>
+  <td width="183" ><span class="style7">Web Tool</span><br />
+          <br />
+
+
+  <ul class="skill-items">
+            	<li>Joomla, Wordpress </li>
+                <li>HTML &amp; CSS</li>
+                <li>Java Script</li>
+                <li>JQuery &amp; php</li>
+                <li>SEO</li>
+  </ul>      </td>
+<td width="175" ><span class="style7"><strong>Animation </strong> Tool</span><br />
+          <br />
+
+
+  <ul class="skill-items">
+            	<li>Adobe Flash</li>
+          <li>Swift 3D </li>
+<li>3D Production Studio</li>
+<li>Swish Max</li>
+      </ul>      </td>
+<td width="242" ><span class="style7">Hardware Software</span><br />
+          <br />
+
+
+  <ul class="skill-items">
+       	  <li>Windows 7 and Server 2008</li>
+<li>MS Office and In page</li>
+<li>Networking, ISA Server</li>
+<li>ADS, DNS, DHCP,</li> 
+      </ul>      </td>
+<td width="147" ><span class="style7">Database</span><br />
+          <br />
+
+
+  <ul class="skill-items">
+            	<li>MS Access</li>
+                <li>MYSQL</li>
+      </ul>      </td>
+    </tr>
+</table>
+
+
+<!-- skills end -->
+<h2 class="icon-skills">Portfolio</h2>
+<table class="tbl-items">
+	<tr>
+    	<td width="288" height="189"  ><span class="style9">Best  websites</span><br />
+    	  <br />
+
+
+  <ul class="skill-items"><li>
+    <p><a href="http://www.funtoursdubai.com/">http://www.funtoursdubai.com/</a><br />
+        <a href="http://www.bighb.com/">http://www.bighb.com/</a><br />
+        <a href="http://www.cfe.edu.pk">www.cfe.edu.pk</a><br />
+        <a href="http://newlifewelfarefoundation.com/">http://newlifewelfarefoundation.com</a><br />
+        <a href="http://www.cool-breeze.biz/">http://www.cool-breeze.biz/</a><br /></p>
+  </li>
+      </ul>      </td>
+        <td width="284" ><span class="style9">Joomla CMS</span><br />
+          <br />
+
+
+  <ul class="skill-items"><li>
+  			
+            <a href="http://cpt.edu.pk/">http://cpt.edu.pk/</a><br />
+            <a href="http://physiofirst.com.pk/">http://physiofirst.com.pk/</a><br />
+            <a href="http://www.cosmeticsurgerypk.com/">http://www.cosmeticsurgerypk.com/</a><br />
+            <a href="http://www.pie-do.com"></a></li>
+      </ul>      </td>
+<td width="244" ><strong class="style9">@ Cresset Tech </strong><br />
+          <br />
+
+
+  <ul class="skill-items">
+            	<li>
+            	  <p><a href="http://stoneagejeans.com">http://stoneagejeans.com</a><br />
+                    <a href="http://www.saadiamirza.com/">http://www.saadiamirza.com/</a><br />
+                    <a href="http://www.fatimanasir.com/">http://www.fatimanasir.com/</a><br />
+                    <a href="http://www.onlinecheck.com">http://www.onlinecheck.com</a></p>
+            	</li>
+      </ul>      </td>
+<td width="202" ><span class="style9">Flash Website</span><br />
+          <br />
+
+
+  <ul class="skill-items"><li>
+    <p><a href="http://www.royalhairdressers.com/">Royel</a><br />
+    </p>
+    </li> 
+      </ul>      </td>
+    </tr>
+</table>
+
+<table class="tbl-items">
+	<tr bgcolor="#00AEEF">
+    	<td width="961" height="189"  ><span class="style11">Websites</span><br />
+    	  <br />
+
+
+  <ul class="skill-items">
+    
+    
+    <a class="fancybox" href="web/web (1).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(1)s.jpg" alt="" /></a>
+<a class="fancybox" href="web/web (2).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(2)s.jpg" alt="" /></a>
+<a class="fancybox" href="web/web (3).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(3)s.jpg" alt="" /></a>
+<a class="fancybox" href="web/web (4).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(4)s.jpg" alt="" /></a>
+<a class="fancybox" href="web/web (5).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(5)s.jpg" alt="" /></a>
+<a class="fancybox" href="web/web (6).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(6)s.jpg" alt="" width="110" height="110" /></a>
+<a class="fancybox" href="web/web (7).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(7)s.jpg" alt="" /></a>
+<a class="fancybox" href="web/web (8).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(8)s.jpg" alt="" /></a>
+<a class="fancybox" href="web/web (9).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(9)s.jpg" alt="" /></a>
+<a class="fancybox" href="web/web (10).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(10)s.jpg" alt="" /></a>
+<a class="fancybox" href="web/web (11).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(11)s.jpg" alt="" /></a>
+<a class="fancybox" href="web/web (12).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(12)s.jpg" alt="" /></a>
+<a class="fancybox" href="web/web (13).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(13)s.jpg" alt="" /></a>
+
+<a class="fancybox" href="web/web (14).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(14)s.jpg" alt="" /></a>
+<a class="fancybox" href="web/web (15).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(15)s.jpg" alt="" /></a>
+<a class="fancybox" href="web/web (16).jpg" data-fancybox-group="gallery" title=""><img src="web/web-(16)s.jpg" alt="" /></a>
+
+
+	  </p>	     </td>
+    </tr>
+    <tr bgcolor="#00AEEF">
+    	<td width="961" height="189"  ><span class="style11">Logos</span><br />
+    	  <br />
+
+
+  <ul class="Logos &amp; Print media">
+    
+    <a class="fancybox" href="logo/logo (1).jpg" data-fancybox-group="gallery" title=""><img src="logo/logo-(1)s.jpg" alt="" /></a>
+    <a class="fancybox" href="logo/logo (2).jpg" data-fancybox-group="gallery" title=""><img src="logo/logo-(2)s.jpg" alt="" /></a>
+     <a class="fancybox" href="logo/logo (3).jpg" data-fancybox-group="gallery" title=""><img src="logo/logo-(3)s.jpg" alt="" /></a>
+      <a class="fancybox" href="logo/logo (4).jpg" data-fancybox-group="gallery" title=""><img src="logo/logo-(4)s.jpg" alt="" /></a>
+       <a class="fancybox" href="logo/logo (5).jpg" data-fancybox-group="gallery" title=""><img src="logo/logo-(5)s.jpg" alt="" /></a>
+        <a class="fancybox" href="logo/logo (6).jpg" data-fancybox-group="gallery" title=""><img src="logo/logo-(6)s.jpg" alt="" /></a>
+         <a class="fancybox" href="logo/logo (7).jpg" data-fancybox-group="gallery" title=""><img src="logo/logo-(7)s.jpg" alt="" /></a>
+          <a class="fancybox" href="logo/logo (8).jpg" data-fancybox-group="gallery" title=""><img src="logo/logo-(8)s.jpg" alt="" /></a>
+ 
+ 
+	  </p>	     </td>
+    </tr>
+    <tr bgcolor="#00AEEF">
+   	  <td width="961" height="189"  ><p><span class="style11">Print Media</span><br />
+    	  <br />
+
+
+          <ul class="Logos &amp; Print media">
+          <a class="fancybox" href="print media/print (1).jpg" data-fancybox-group="gallery" title=""><img src="print media/print-(1)s.jpg" alt="" /> </a>
+          <a class="fancybox" href="print media/print (2).jpg" data-fancybox-group="gallery" title=""><img src="print media/print-(2)s.jpg" alt="" /></a>
+          <a class="fancybox" href="print media/print (3).jpg" data-fancybox-group="gallery" title=""><img src="print media/print-(3)s.jpg" alt="" /></a>
+          <a class="fancybox" href="print media/print (4).jpg" data-fancybox-group="gallery" title=""><img src="print media/print-(4)s.jpg" alt="" /></a>
+          <a class="fancybox" href="print media/print (5).jpg" data-fancybox-group="gallery" title=""><img src="print media/print-(5)s.jpg" alt="" /></a>
+   	    <a class="fancybox" href="print media/print (6).jpg" data-fancybox-group="gallery" title=""><img src="print media/print-(6)s.jpg" alt="" /></a>
+          <a class="fancybox" href="print media/print (7).jpg" data-fancybox-group="gallery" title=""><img src="print media/print-(7)s.jpg" alt="" /></a>
+          <a class="fancybox" href="print media/print (8).jpg" data-fancybox-group="gallery" title=""><img src="print media/print-(8)s.jpg" alt="" /></a>
+   	      
+   	      </p>	     
+      </p></td>
+    </tr>
+    <tr bgcolor="#00AEEF"><td width="961" height="189" bgcolor="#00AEEF"  ><span class="style11">Art Work</span><br />
+    	  <br />
+
+
+  <ul class="skill-items"><li>
+    
+    
+   		<a class="fancybox" href="art work/art (1).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(1)s.jpg" alt="" /></a>
+        <a class="fancybox" href="art work/art (2).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(2)s.jpg" alt="" /></a>
+        <a class="fancybox" href="art work/art (3).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(3)s.jpg" alt="" /></a>
+        <a class="fancybox" href="art work/art (4).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(4)s.jpg" alt="" /></a>
+        <a class="fancybox" href="art work/art (5).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(5)s.jpg" alt="" /></a>
+        <a class="fancybox" href="art work/art (6).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(6)s.jpg" alt="" /></a>
+        <a class="fancybox" href="art work/art (7).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(7)s.jpg" alt="" /></a>
+        <a class="fancybox" href="art work/art (8).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(8)s.jpg" alt="" /></a>
+		<a class="fancybox" href="art work/art (9).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(9)s.jpg" alt="" /></a>
+        <a class="fancybox" href="art work/art (10).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(10)s.jpg" alt="" /></a>
+        <a class="fancybox" href="art work/art (11).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(11)s.jpg" alt="" /></a>
+        <a class="fancybox" href="art work/art (12).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(12)s.jpg" alt="" /></a>
+        <a class="fancybox" href="art work/art (13).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(13)s.jpg" alt="" /></a>
+        <a class="fancybox" href="art work/art (14).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(14)s.jpg" alt="" /></a>
+        <a class="fancybox" href="art work/art (15).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(15)s.jpg" alt="" /></a>
+        <a class="fancybox" href="art work/art (16).jpg" data-fancybox-group="gallery" title=""><img src="art work/art-(16)s.jpg" alt="" /></a>
+        	</p>
+
+<ul> 
+  <br />
+  <br />
+  <br />
+  <span class="style11">Flash Intractive CD			</span><br /><br />
+
+
+  <li><a class="fancybox" href="CFE Presentation.swf"><img src="print media/print-(8)s.jpg" width="110" height="110" /></a></li>
+	</ul>
+  </li>
+      </ul>      </td>
+      
+</table>
+
+
+<p>&nbsp; </p>
+</div>
+<!-- footer start -->
+
+<div id="footer" class="clearfix">
+
+<div class="gray floatleft height25">&nbsp;</div>
+<div class="red floatright height25">&nbsp;</div>
+
+</div>
+
+<!-- footer end -->
 </body>
 </html>
